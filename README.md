@@ -1,93 +1,144 @@
-# 🎵 Spotify Dashboard – Power BI Project
+🎵 Spotify Song & Artist Analytics Dashboard (Power BI)
+📌 Project Overview
 
-## 📌 Project Overview
-I created this **Spotify Dashboard** in Power BI to help Spotify stakeholders—music analysts, playlist managers, and marketing teams—gain actionable insights from the raw “Top 50” dataset.  
-The dataset alone is limited to rankings and lists, making trend analysis difficult.  
-This dashboard transforms raw data into **interactive visuals, KPIs, trends, and drill-downs** for clear decision-making.
+This project is an interactive Power BI dashboard built using Spotify’s Top 50 dataset to help music analysts, playlist managers, and marketing teams gain actionable insights beyond simple rankings.
 
----
+The raw dataset is limited to lists and positions, making it difficult to analyze trends, performance, and artist impact.
+This dashboard transforms the data into KPIs, trends, comparisons, and drill-down views for effective decision-making.
 
-## 👤 My Role
-I personally **designed, developed, and implemented** this dashboard from scratch, including:  
-- Understanding business requirements and identifying gaps in the raw data.  
-- Designing interactive Overview, Artist, and Songs pages.  
-- Creating KPIs and metrics to provide actionable insights.  
-- Implementing drill-down features to explore detailed artist and song-level data.  
-- Visualizing trends over time for popularity, song counts, and album distributions.  
+🎯 Business Objectives
 
----
+Monitor key performance indicators at a glance
 
-## 📌 Business Requirements
+Compare Explicit vs Non-Explicit song performance
 
-### **Overview Page**
-- KPIs: Total Songs, Distinct Artists, Average Popularity, Average Duration  
-- Compare Explicit vs Non-Explicit songs  
-- Songs by Album Type (single, album, compilation)  
-- Distinct Songs & Avg Popularity by Year  
-- Trends of Avg Popularity & Distinct Songs by Month  
-- Top Songs & Top Artists by Popularity
+Identify top-performing songs and artists
 
-### **Artist Page**
-- Top Artists by Popularity  
-- Compare Tracks per Album & Songs by Artist  
-- Drill-down: song details, release date, avg popularity, avg position, duration  
-- Identify artists with consistent hits & #1 positions
+Analyze popularity trends over time
 
-### **Songs Page**
-- Rank Top Songs by Popularity  
-- Tracks per Song (Album/Single distribution)  
-- Compare Songs by Song Count  
-- Detailed table: song name, release date, distinct artists, avg popularity, position, duration per year
+Enable artist- and song-level drill-downs
 
----
+📊 Dashboard Pages & Analysis
+🔹 Overview Page
 
-## ❗ Problem Statement
-Spotify’s raw Top 50 dataset has limitations:  
-- **No clear KPI monitoring** → Cannot quickly see total songs, artists, or popularity  
-- **Explicit vs Non-Explicit missing** → Hard to compare performance  
-- **Song/Album distribution unclear**  
-- **Trends not visible** → No monthly/yearly analysis  
-- **Disconnected artist/song insights** → Hard to drill-down  
-- **Decision-making gaps** → Marketing & playlist teams need actionable insights  
+KPIs: Total Songs, Distinct Artists, Average Popularity, Average Duration
 
-**This dashboard solves all of these issues**, providing a single, interactive solution.
+Explicit vs Non-Explicit song comparison
 
----
+Songs by Album Type (Single, Album, Compilation)
 
-## ✨ Key Features
-- Interactive visuals with slicers & filters  
-- KPI monitoring: Total Songs, Distinct Artists, Avg Popularity, Avg Duration  
-- Trend analysis by month & year  
-- Highlights Top Songs & Top Artists  
-- Drill-down capabilities for artist/song insights  
-- Supports data-driven decision-making
+Distinct Songs & Average Popularity by Year
 
----
+Monthly trends in popularity and song count
 
-## 🛠 Tools & Technologies
-- **Power BI Desktop** – Dashboard creation, visuals, KPIs, drill-downs  
-- **Spotify Top 50 Dataset** – Raw data  
-- **Excel** – Data cleaning & preparation
+Top Songs & Top Artists by popularity
 
----
+🔹 Artist Analysis Page
 
-## 📌 How to Use
-1. Download `Spotify_Dashboard.pbix`  
-2. Open in **Power BI Desktop**  
-3. Navigate **Overview, Artist, and Songs pages**  
-4. Use slicers & filters to explore trends, top performers, and details  
+Top artists by popularity
 
-*Screenshots are included in a separate folder for easy preview.*  
+Tracks per album and songs per artist
 
+Drill-down into:
 
-## 🧠 What I Learned
-- Translating business requirements into actionable dashboards  
-- Working with real-world datasets  
-- Designing interactive reports with drill-downs & slicers  
-- Presenting insights that support stakeholder decision-making
+Song details
 
----
+Release dates
 
-## 📝 Author
-**Sakib Miya** – Data Analyst Portfolio Project  
+Average popularity
 
+Average chart position
+
+Duration
+
+Identification of artists with consistent hits and #1 rankings
+
+🔹 Song Analysis Page
+
+Ranking of top songs by popularity
+
+Album vs Single distribution per song
+
+Song count comparison
+
+Detailed table with:
+
+Song name
+
+Release year
+
+Distinct artists
+
+Average popularity
+
+Chart position
+
+Duration
+
+❗ Problem Statement
+
+Spotify’s raw Top 50 dataset presents several challenges:
+
+No centralized KPI monitoring
+
+No visibility into Explicit vs Non-Explicit performance
+
+Unclear album and song distribution
+
+No monthly or yearly trend analysis
+
+Limited artist- and song-level exploration
+
+This dashboard addresses all these gaps in a single interactive solution.
+
+✨ Key Features
+
+Interactive visuals with slicers and filters
+
+KPI-driven overview for quick insights
+
+Time-based trend analysis
+
+Artist and song drill-down capabilities
+
+Designed for business and stakeholder use
+
+🛠 Tools & Technologies
+
+Power BI Desktop – Dashboard development & visualization
+
+Excel – Data cleaning and preparation
+
+Spotify Top 50 Dataset
+
+▶️ How to Use
+
+Download Spotify_Dashboard.pbix
+
+Open it in Power BI Desktop
+
+Navigate through:
+
+Overview
+
+Artist Analysis
+
+Song Analysis
+
+Use slicers and filters to explore trends and top performers
+
+Screenshots are available in the /screenshots folder for quick preview.
+
+🧠 Key Learnings
+
+Translating business requirements into analytics dashboards
+
+Designing clean, recruiter-friendly Power BI reports
+
+Building drill-downs and KPI-based storytelling
+
+Presenting insights for data-driven decisions
+
+👤 Author
+
+Sakib Miya
